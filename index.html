@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leap Year calculator</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="app.js" rel="text/javascript"></script>
+</head>
+<body>
+    <nav class="navigation container">
+        <div class="nav-brand">Leap year calculator</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Source code</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <img class="hero-img" src="" />
+        <h1 class="hero-heading">Leap Year? <br> <small><span class="heading-inverted">Enter your birth date in order to check the leap year</span>
+        </small></h1>
+    </header>
+
+    <section class="section ow">
+        <div class="container-center">
+            <table>
+                
+    <tr><td>Enter name</td><td><input type="text"></input></td></tr>
+    <tr><td>Enter DOB - first enter year </td><td><input id="year" type = "number"></input></td></tr>
+    <tr><td>Enter month</td><td> <input type="number"></input></td></tr>
+    <tr><td>Enter day</td><td><input type="number"></input></td></tr>
+</table>
+<center>
+    <button onclick="calc()" id="stybutton">Calculate</button>
+   </center>
+
+<p id="disp" style="border: 2px solid #F87171; border-radius: 15px; height: 10vh;"></p>
+    </div>
+    </section>
+</body>
+</html>
